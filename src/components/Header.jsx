@@ -7,8 +7,8 @@ import HeroMoreTabs from "./HeroMoreTabs";
 function Header() {
   return (
     <>
-      <header className="flex justify-center items-center p-4 text-white ">
-        <div className="absolute inset-x-0 top-0 z-50 mb-2">
+      <header className="flex justify-center items-center p-4 text-white gap-8  ">
+        <div className="absolute inset-x-6 top-0 z-50 mb-2">
           <Navigation />
         </div>
         <div className="text-center z-10 mt-[386px] sm:mt-0">

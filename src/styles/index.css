@@ -20,8 +20,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -67,8 +65,12 @@ header {
   background-image: url("/images/header_background.png");
   background-repeat: no-repeat;
   width: 100vw;
-  height: 100vh;
+  height: 700px;
   position: relative;
+  float: none !important;
+  clear: both !important;
+  background-position: center top;
+  background-size: cover;
 }
 
 header::before {
@@ -78,7 +80,9 @@ header::before {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
 }
 
 .tab{
