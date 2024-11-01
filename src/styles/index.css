@@ -19,6 +19,7 @@ a:hover {
 }
 
 body {
+  padding: 0;
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
@@ -90,4 +91,10 @@ header::before {
   height: 72px;
   padding:12px;
   line-height: 1.8rem;
+}
+
+.recent_activities{
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100vw;
 }

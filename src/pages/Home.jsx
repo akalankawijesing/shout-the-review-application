@@ -7,7 +7,9 @@ function Home () {
     return (
         <> 
         <Header/>
+        <section className="recent_activities">
         <RecentActivities/>
+        </section>
         </>
     );
 };
